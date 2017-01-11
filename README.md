@@ -3,18 +3,46 @@ Content API server that responds to GraphQL by providing content for pages, post
 
 Base objects that contain required fields for their type.
 
-# Page
+# Site
 ``{
   "title": "title",
-  "theme": ""
+  "theme": "basic"
   }``
 
-Post
+# Page
+``{
+  "title": "title"
+  }``
 
-Product
+# Post
+``{
+  "title": "title"
+  }``
 
-Person
+# Product
+``{
+  "name": "widget"
+  }``
 
-Permission
+#Person
+``{
+  "name": {
+      "given": "David",
+      "family": "Smith"
+    }
+  }``
 
-Profile
+
+#Permission
+``{
+  }``
+
+
+# Profile
+``{
+  "name": {
+      "given": "David",
+      "family": "Smith"
+    }
+  }``
+
